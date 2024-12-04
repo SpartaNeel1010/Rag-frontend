@@ -1,0 +1,84 @@
+.document-upload-modal {
+    width: 500px;
+    max-width: 90%;
+  }
+  
+  .file-drop-area {
+    border: 2px dashed #3C3C3C;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+  }
+  
+  .file-drop-area.drag-active {
+    background-color: rgba(60, 60, 60, 0.1);
+    border-color: #007ACC;
+  }
+  
+  .drop-message {
+    color: #D4D4D4;
+  }
+  
+  .browse-btn {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    margin:10px;
+  }
+  
+  .browse-btn:hover {
+    background-color: #005A8E;
+  }
+  
+  .selected-files {
+    margin-top: 20px;
+    margin:10px;
+  }
+  
+  .selected-files ul {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .selected-files li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C3C3C;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #D4D4D4;
+  }
+  
+  .remove-file-btn {
+    background: none;
+    border: none;
+    color: #FF6B6B;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-upload {
+    background-color: #007ACC;
+    color: white;
+  }
+  
+  .btn-upload:disabled {
+    background-color: #007ACC;
+    opacity: 0.7;
+  }
+  .form-group{
+    margin:15px 22px;
+  }
+
+  
