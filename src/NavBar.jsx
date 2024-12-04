@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './Navbar.css';
+import './NavBar.css';
 import DocumentUploadModal from './DocumentUploadModal'
 const Navbar = ({ activeIndex, setActiveIndex,fetchChats }) => {
     // State to manage the list of indexes and selected index
