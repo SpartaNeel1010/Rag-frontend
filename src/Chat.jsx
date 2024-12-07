@@ -139,7 +139,7 @@ function Chat({activeIndex,chats,setChats}) {
     setChats(updatedChats);
 
     try {
-      const response = await fetch('https://backend-service-640388342610.us-central1.run.app/generate', {
+      const response = await fetch('https://flask-app-447682071256.us-central1.run.app/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

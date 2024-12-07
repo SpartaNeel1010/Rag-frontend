@@ -35,7 +35,7 @@ const Navbar = ({ activeIndex, setActiveIndex,fetchChats }) => {
         try {
           
           // Make POST request to create index
-          const response = await fetch('https://backend-service-640388342610.us-central1.run.app/createindex', {
+          const response = await fetch('https://flask-app-447682071256.us-central1.run.app/createindex', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json' // Set the content type to JSON
@@ -76,7 +76,7 @@ const Navbar = ({ activeIndex, setActiveIndex,fetchChats }) => {
         const fetchIndexes = async () => {
             try {
                 setIsLoading(true);
-                const response = await fetch("https://backend-service-640388342610.us-central1.run.app/getindexes")
+                const response = await fetch("https://flask-app-447682071256.us-central1.run.app/getindexes")
                 const data = await response.json();
                 const fetchedIndexes = data['Indexes']
 

@@ -89,7 +89,7 @@ const DocumentUploadModal = ({
     setUploadError(null);
 
     try {
-      const response = await fetch('https://backend-service-640388342610.us-central1.run.app/upload', {
+      const response = await fetch('https://flask-app-447682071256.us-central1.run.app/upload', {
         method: 'POST',
         body: formData
       });
